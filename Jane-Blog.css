@@ -1,0 +1,2055 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.nav{
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+   justify-content: space-between;
+}
+.facebook i{
+    color: white;
+    padding: 10px;
+}
+.icon{
+    display: flex;
+}
+
+.icon i:hover{
+    background-color: #616161;
+    color: #000;
+}
+.find i:hover{
+    background-color: #616161;
+    color: #000;
+}
+.modal-name{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.modal-name span{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding:5px 5px 5px 5px;
+}
+.modal-name h1{
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.modal-name h6{
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.jane-img{
+    padding-top:200px;
+    background-image: url('jane.jpg');
+    width: 100%;
+    height: 1050px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.jane-img h4{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    color: white;
+    top: 500px;
+    padding-left: 30px;
+}
+.jane-img h1{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    position: absolute;
+    color: white;
+    top: 580px;
+    padding-left: 30px;
+}
+.jane-img button{
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 500;
+    background-color: rgb(182, 174, 174);
+    position: absolute;
+    font-size: 25px;
+    top: 700px;
+    padding: 20px 40px 20px 40px;
+    margin-left: 30px;
+}
+.jane-img button:hover{
+    background-color: #ccc;
+}
+.bottom-con-left{
+    padding-left: 15px;
+    width:74%;
+}
+.bottom-con{
+    margin-top: 25px;
+    margin-left: 30px;
+    
+    background-color: whitesmoke;
+}
+.bottom-con h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.bottom-con h6{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.bottom-con span{
+    color:gray;
+}
+.girl-img{
+    height: 95%;
+    width: 92%;
+    margin-left: 35px;
+    margin-right: 25px;
+}
+.bottom-con p{
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-left: 35px;
+    margin-right: 65px;
+    font-size: 22px;
+    text-align: justify;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.under-con{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.hhover i{
+    color: #000;
+    padding-right: 5px;
+}
+.like-bt{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+.like-bt button{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-bottom: 40px;
+    padding: 8px 20px 8px 20px;
+    border: none;
+}
+
+.replies-bt span{
+    background-color: white;
+    color: #000;
+    padding: 5px;
+}
+
+.replies-bt button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 65px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    padding: 8px 30px 8px 30px;
+    border: none;
+}
+.like-bt button:hover{
+    background-color: lightgrey;
+}
+.hat-content{
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+}
+.hat-content h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.hat-content h6{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.hat-content span{
+    color:gray;
+}
+.man-img{
+    height: 95%;
+    width: 92%;
+    margin-left: 35px;
+    margin-right: 25px;
+}
+.hat-content p{
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-left: 35px;
+    margin-right: 25px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.in-hat-con{
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 25px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+}
+.last-content{
+    margin-top: 25px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+}
+.last-content h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.last-content h6{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.last-content span{
+    color:gray;
+}
+.runway-img{
+    height: 95%;
+    width: 92%;
+    margin-left: 35px;
+    margin-right: 25px;
+}
+.last-content p{
+    margin-top: 20px;
+    line-height: 1.5;
+    margin-left: 35px;
+    margin-right: 25px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+.run-away{
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+} 
+.middle-content{
+    display: flex;
+}
+.bottom-con-right{
+    width: 26%;
+    background-color: white;
+    padding-left:35PX;
+    margin-right: 25PX;
+    margin-top: 25PX;
+}
+.avatargirl-img img{
+    width: 100%;
+    height: 90%;
+    filter: grayscale(80%);
+}
+.avatargirl-img{
+    background-color: black;
+    width: 98%;
+}
+.avatargirl-img h1{
+    color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.avatargirl-img p{
+    display: block;
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.popular-post{
+    margin-top: 40px;
+    background-color: black;
+    margin-right: 25px;
+    width: 98%;
+}
+.popular-post p{
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.popular{
+    background-color: white;
+    display:flex;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+}
+.popular img{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 70px;
+    width: 70px;
+}
+.denim h1{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.denim span{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.pop-2{
+    background-color: white;
+    display:flex;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+}
+.pop-2 img{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 70px;
+    width: 70px;
+}
+.sweaters h1{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.sweaters span{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.pop-3{
+    background-color: white;
+    display:flex;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+}
+.pop-3 img{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 70px;
+    width: 70px;
+}
+.workshop h1{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.workshop span{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.pop-4{
+    background-color: white;
+    display:flex;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+}
+.pop-4 img{
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 70px;
+    width: 70px;
+}
+.popular:hover{
+    background-color:rgb(227, 227, 227);
+}
+.pop-2:hover{
+    background-color:rgb(227, 227, 227);
+}
+.pop-3:hover{
+    background-color:rgb(227, 227, 227);
+}
+.pop-4:hover{
+    background-color:rgb(227, 227, 227);
+}
+
+
+.Ad{
+    margin-top: 40px;
+    background-color: whitesmoke;
+    margin-right: 25px;
+    padding-bottom: 10px;
+    width: 98%;
+}
+
+.Ad h2{
+    padding: 15px 15px 15px 15px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.Ad p{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 25px;
+    background-color: rgb(220, 220, 220);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 100px;
+}
+.tag{
+    margin-top: 40px;
+    background-color: whitesmoke;
+    margin-right: 25px;
+    padding-bottom: 10px;
+    width: 98%;
+}
+.tag h2{
+    padding: 15px 15px 15px 15px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.tag p{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+
+ .tags span{
+    line-height:3;
+    font-size: 20px;
+    background-color: rgb(223, 223, 223);
+    padding: 2px 2px 2px 2px;
+    margin-left: 10px;
+}
+
+.in-con{
+    background-color: whitesmoke;
+    margin-right: 25px;
+    padding-bottom: 20px;
+}
+.Inspiration{
+    margin-top: 40px;
+    background-color: whitesmoke;
+    margin-right: 25px;
+    padding-bottom: 10px;
+    width: 98%;
+}
+.Inspiration h2 {
+    padding: 15px 15px 15px 15px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.in-img{
+    display: flex;
+}
+
+.in-img img{
+    width: 45%;
+    margin-top: 20px;
+    padding-left: 22px;
+    padding-right: 10px;
+}
+
+.in-img-1{
+    display:flex;
+}
+.in-img-1 img{
+    width: 45%;
+    margin-top: 20px;
+    margin-left: 22px;
+    padding-right: 10px;
+}
+
+.in-img-2{
+    filter: grayscale(75%);
+}
+
+.follow{
+    width: 98%;
+    margin-top: 40px;
+    background-color: whitesmoke;
+    margin-right: 25px;
+    padding-bottom: 20px;
+}
+
+.follow i{
+    color: #000;
+    font-size: 30px;
+    padding-left: 2px;
+}
+      
+.follow h2{
+    padding: 15px 15px 15px 15px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+.ic{
+    display: flex;
+    margin-top: 10px;
+}
+.follow-bt i:hover{
+    color: #616161;
+}
+.follow-bt{
+    padding: 5px;
+}
+.subscribe{
+    width: 98%;
+    margin-top: 40px;
+    background-color: whitesmoke;
+    margin-right: 25px;
+    padding-bottom: 20px;
+}
+      
+.subscribe h2{
+    padding: 15px 15px 15px 15px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+  
+.subscribe p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+  
+.subscribe input{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 91%;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+  
+.subscribe button{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 94%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 25px;
+    background-color: rgb(255 70 70);
+    text-align: center;
+    border: none;
+    color: white;
+}
+  .footer{
+    position: relative;
+    background-color:#616161;
+    height: 200px;
+    width: 100%;
+    margin-top: 25px;
+}
+.top-bt{
+    padding-top: 70px;
+}
+.top-bt a{
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding:10px 20px 10px 20px;
+    font-size: 25px;
+    margin-left: 45px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.top-bt a:hover{
+    background-color: lightgray;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: black;
+}
+.top-bt i{
+    color: white;
+    padding: 5px;
+}
+.footer p{
+    font-family:"Open Sans";
+    font-size: 20px;
+    padding-top:35PX;
+    margin-left: 45px;
+    color: white;
+}
+.footer a{
+    color: white;
+}
+
+
+
+
+
+
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    .nav{
+       display: none;
+    }
+    .modal-name h1{
+       padding-left: 5px;
+       margin-top: 0px;
+       text-align: center;
+       padding-right: 5px;
+ }
+ .modal-name h6{
+   padding-left: 5px;
+   margin-top: 10px;
+   text-align: center;
+   padding-right: 5px;
+ }
+ .jane-img{
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center top;
+   height: 25px;
+   width: 100%;
+ }
+.jane-img h4{
+   top: 40px;
+   margin-left: 10px;
+   padding-left: 10px;
+   font-size: 33px;
+}
+.jane-img h1{
+  display: none;
+}
+.jane-img button{
+   top: 100px;
+   padding: 15px 25px 15px 25px;
+   font-size: 13px;
+   margin-left: 20px;
+}
+.middle-content{
+   display: block;
+}
+.bottom-con-left{
+    width: 100%;
+    padding:0;
+}
+.bottom-con{
+    width: 90%;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.bottom-con h1{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 16px;
+}
+.bottom-con h6{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 16px;
+}
+.girl-img{
+   width: 83%;
+   height: 92%;
+   margin-left: 24px;
+}
+.bottom-con p{
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-left: 24px;
+    margin-right: 25px;
+}
+.hhover i{
+    color: #000;
+    padding-right: 0px;
+}
+.like-bt button{
+    font-size: 14px;
+    padding: 10px 25px 10px 25px;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+ }
+ 
+.replies-bt button{
+    font-size: 14px;
+    padding:10px;
+    margin: 0;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.hat-content{
+    width: 90%;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.hat-content h1{
+    text-align: center;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 16px;
+}
+.hat-content h6{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 16px;
+}
+.hat-content p{
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-left: 24px;
+    margin-right: 25px;
+}
+.last-content{
+    width: 90%;
+   margin-top: 25px;
+   margin-left: 15px;
+}
+.runway-img{
+     width: 83%;
+   height: 92%;
+   margin-left: 24px;
+}
+.last-content h1{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 16px;
+}
+.last-content h6{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 16px;
+}
+.last-content p{
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-left: 24px;
+    margin-right: 25px;
+}
+
+.bottom-con-right{
+   display: block;
+   width: 91%;
+   padding-left:15px;
+   margin-right: 10px;
+   margin-top: 25px;
+}
+
+.avatargirl-img img{
+    width: 100%;
+    height: 150px;
+    filter: grayscale(80%);
+}
+.avatargirl-img{
+    width: 100%;
+}
+.avatargirl-img h1{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.avatargirl-img p{
+    font-size: 19px;
+    line-height: 1.2;
+}
+.popular-post{
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 50px;
+}
+.popular-post p{
+    font-size: 22px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.popular img{
+    height: 8%;
+    width: 18%;
+}
+.denim h1{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.denim span{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.pop-2 img{
+    height: 8%;
+    width: 18%;
+}
+.sweaters h1{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.sweaters span{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.pop-3 img{
+    height: 8%;
+    width: 18%;
+}
+.workshop h1{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.workshop span{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.pop-4 img{
+    height: 8%;
+    width: 18%;
+}
+.Ad{
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 50px;
+}  
+.Ad h2{
+    font-size: 20px;
+    padding: 25px 15px 25px 15px;
+}
+.Ad p{
+    font-size: 18px;
+}
+.tag{
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 40px;
+} 
+.tag h2{
+    padding: 18px 15px 18px 15px;
+    font-size: 18px;
+}
+
+.tag p{
+    padding-left: 8px;
+    padding-right: 4px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+.tags span{
+    font-size: 18px;
+    padding: 2px 5px 2px 5px;
+    margin-left: 15px;
+    line-height: 2.5;
+}
+.Inspiration{
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 50px;
+}
+.Inspiration h2 {
+    padding: 18px 15px 18px 15px;
+    font-size: 18px;
+}
+.in-img img{
+    width: 45%;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+.in-img-1 img{
+    width: 45%;
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left:15px;
+}
+.follow{
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 40px;
+} 
+.follow i{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+.follow h2{
+    padding: 18px 15px 18px 15px;
+    font-size: 18px;
+}
+.subscribe{
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 40px;
+}
+.subscribe h2{
+    padding: 18px 15px 18px 15px;
+    font-size: 18px;
+}
+  
+.subscribe p{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 19px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.subscribe input{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 85%;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subscribe button{
+    width: 90%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    margin-top: 25px;
+ }
+ .top-bt{
+    padding-top: 20px;
+}
+.top-bt a{
+    padding:10px 15px 10px 15px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.footer p{
+    margin-left: 15px;
+}
+}
+
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .nav{
+        display: none;
+     }
+     .modal-name h1{
+        font-size: 42px;
+        padding-left: 5px;
+        margin-top: 0px;
+        text-align: center;
+        padding-right: 5px;
+  }
+  .modal-name h6{
+    font-size: 16px;
+    padding-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    padding-right: 5px;
+  }
+  .jane-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 150px;
+    width: 100%;
+  }
+ .jane-img h4{
+    top: 120px;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 38px;
+ }
+ .jane-img h1{
+   display: none;
+ }
+ .jane-img button{
+    top: 185px;
+    padding: 15px 25px 15px 25px;
+    font-size: 15px;
+    margin-left: 20px;
+ }
+ .middle-content{
+    display: block;
+ }
+ .bottom-con-left{
+     width: 100%;
+     padding:0;
+ }
+ .bottom-con{
+     width: 90%;
+     margin-top: 25px;
+     margin-left: 24px;
+ }
+ .bottom-con h1{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .bottom-con h6{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .girl-img{
+    width: 89%;
+    height: 92%;
+    margin-left: 24px;
+ }
+ .bottom-con p{
+     font-size: 17px;
+     text-align: justify;
+     margin-top: 5px;
+     margin-left: 24px;
+     margin-right: 25px;
+ }
+ .hhover i{
+     color: #000;
+     padding-right: 0px;
+ }
+ .like-bt button{
+     font-size: 18px;
+     padding: 10px 25px 10px 25px;
+     margin-top: 25px;
+     margin-left: 20px;
+     margin-bottom: 25px;
+  }
+  
+ .replies-bt button{
+     font-size: 18px;
+     padding:10px;
+     margin: 0;
+     margin-top: 25px;
+     margin-right: 20px;
+ }
+ .hat-content{
+     width: 90%;
+     margin-top: 25px;
+     margin-left: 24px;
+ }
+ .hat-content h1{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .hat-content h6{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .hat-content p{
+    font-size: 17px;
+     text-align: justify;
+     margin-top: 5px;
+     margin-left: 24px;
+     margin-right: 25px;
+ }
+ .last-content{
+     width: 90%;
+    margin-top: 25px;
+    margin-left: 24px;
+ }
+ .runway-img{
+      width: 89%;
+    height: 92%;
+    margin-left: 24px;
+ }
+ .last-content h1{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .last-content h6{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .last-content p{
+    font-size: 17px;
+     text-align: justify;
+     margin-top: 5px;
+     margin-left: 24px;
+     margin-right: 25px;
+ }
+ 
+ .bottom-con-right{
+    display: block;
+    width: 91%;
+    padding-left:25px;
+    margin-right: 10px;
+    margin-top: 25px;
+ }
+ 
+ .avatargirl-img img{
+     width: 100%;
+     height: 220px;
+     filter: grayscale(80%);
+ }
+ .avatargirl-img{
+     width: 98%;
+ }
+ .avatargirl-img h1{
+     font-size: 20px;
+     font-weight: 400;
+     font-family: sans-serif;
+ }
+ .avatargirl-img p{
+     font-size: 19px;
+     line-height: 1.2;
+ }
+ .popular-post{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 50px;
+ }
+ .popular-post p{
+     font-size: 22px;
+     padding-left: 10px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ .popular img{
+     height: 8%;
+     width: 18%;
+ }
+ .denim h1{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .denim span{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .pop-2 img{
+     height: 8%;
+     width: 18%;
+ }
+ .sweaters h1{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .sweaters span{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .pop-3 img{
+     height: 8%;
+     width: 18%;
+ }
+ .workshop h1{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .workshop span{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .pop-4 img{
+     height: 8%;
+     width: 18%;
+ }
+ .Ad{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 50px;
+ }  
+ .Ad h2{
+     font-size: 20px;
+     padding: 25px 15px 25px 15px;
+ }
+ .Ad p{
+     font-size: 18px;
+ }
+ .tag{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 40px;
+ } 
+ .tag h2{
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+ 
+ .tag p{
+     padding-left: 8px;
+     padding-right: 4px;
+     margin-top: 15px;
+     margin-left: 15px;
+     font-size: 18px;
+ }
+ .tags span{
+     font-size: 18px;
+     padding: 2px 5px 2px 5px;
+     margin-left: 15px;
+     line-height: 2.5;
+ }
+ .Inspiration{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 50px;
+ }
+ .Inspiration h2 {
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+ .in-img img{
+     width: 55%;
+     margin-top: 20px;
+     padding-left: 15px;
+     padding-right: 0px;
+     margin-left: 10px;
+ }
+ 
+ .in-img-1 img{
+     width: 55%;
+     margin-top: 20px;
+     padding-left: 15px;
+     padding-right: 0px;
+     margin-left: 10px;
+ }
+ .follow{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 40px;
+ } 
+ .follow i{
+     font-size: 25px;
+     padding-left: 5px;
+     padding-right: 0px;
+ }
+ .follow h2{
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+ .subscribe{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 40px;
+ }
+ .subscribe h2{
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+   
+ .subscribe p{
+     margin-top: 20px;
+     margin-left: 10px;
+     margin-right: 15px;
+     font-size: 18px;
+     text-align: justify;
+     line-height: 1.5;
+ }
+ .subscribe input{
+     margin-top: 20px;
+     margin-left: 10px;
+     width: 85%;
+     font-size: 18px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ .subscribe button{
+     width: 90%;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     font-size: 18px;
+ }
+ .footer{
+     height: 200px;
+     width: 100%;
+     margin-top: 25px;
+  }
+  .top-bt{
+     padding-top: 20px;
+ }
+ .top-bt a{
+     padding:20px 15px 20px 15px;
+     font-size: 25px;
+     margin-left: 25px;
+     margin-top: 30px;
+ }
+ .top-bt i{
+    padding: 10px;
+ }
+ .footer p{
+     margin-left: 25px;
+ }
+}
+
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .facebook i{
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 15px;
+        font-size: 13px;
+    }
+     .modal-name h1{
+        font-size: 42px;
+        padding-left: 5px;
+        margin-top: 0px;
+        text-align: center;
+        padding-right: 5px;
+  }
+  .modal-name h6{
+    font-size: 16px;
+    padding-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    padding-right: 5px;
+  }
+  .jane-img{
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center top;
+    height: 300px;
+    width: 100%;
+  }
+ .jane-img h4{
+    top: 145px;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 40px;
+ }
+ .jane-img h1{
+    font-size: 55px;
+    top: 214px;
+    padding-left: 20px;
+ }
+ .jane-img button{
+    top: 300px;
+    padding: 15px 25px 15px 25px;
+    font-size: 21px;
+    margin-left: 20px;
+ }
+ .middle-content{
+    display: block;
+ }
+ .bottom-con-left{
+     width: 100%;
+     padding:0;
+ }
+ .bottom-con{
+     width: 94%;
+     margin-top: 25px;
+     margin-left: 24px;
+ }
+ .bottom-con h1{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .bottom-con h6{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .girl-img{
+    width: 93%;
+    height: 92%;
+    margin-left: 24px;
+ }
+ .bottom-con p{
+     font-size: 17px;
+     text-align: justify;
+     margin-top: 5px;
+     margin-left: 24px;
+     margin-right: 25px;
+ }
+ .hhover i{
+     color: #000;
+     padding-right: 0px;
+ }
+ .like-bt button{
+     font-size: 18px;
+     padding: 10px 25px 10px 25px;
+     margin-top: 25px;
+     margin-left: 20px;
+     margin-bottom: 25px;
+  }
+  
+ .replies-bt button{
+     font-size: 18px;
+     padding:10px;
+     margin: 0;
+     margin-top: 25px;
+     margin-right: 20px;
+ }
+ .hat-content{
+     width: 94%;
+     margin-top: 25px;
+     margin-left: 24px;
+ }
+ .hat-content h1{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .hat-content h6{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .hat-content p{
+    font-size: 17px;
+     text-align: justify;
+     margin-top: 5px;
+     margin-left: 24px;
+     margin-right: 25px;
+ }
+ .last-content{
+    width: 94%;
+    margin-top: 25px;
+    margin-left: 24px;
+ }
+ .runway-img{
+      width: 93%;
+    height: 92%;
+    margin-left: 24px;
+ }
+ .last-content h1{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .last-content h6{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .last-content p{
+    font-size: 17px;
+     text-align: justify;
+     margin-top: 5px;
+     margin-left: 24px;
+     margin-right: 25px;
+ }
+ 
+ .bottom-con-right{
+    display: block;
+    width: 95.5%;
+    padding-left:25px;
+    margin-right: 10px;
+    margin-top: 25px;
+ }
+ 
+ .avatargirl-img img{
+     width: 100%;
+     height: 380px;
+     filter: grayscale(80%);
+ }
+ .avatargirl-img{
+     width: 98%;
+ }
+ .avatargirl-img h1{
+     font-size: 20px;
+     font-weight: 400;
+     font-family: sans-serif;
+ }
+ .avatargirl-img p{
+     font-size: 19px;
+     line-height: 1.2;
+ }
+ .popular-post{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 50px;
+ }
+ .popular-post p{
+     font-size: 22px;
+     padding-left: 14px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ .popular img{
+     height: 8%;
+     width: 6%;
+ }
+ .denim h1{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .denim span{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .pop-2 img{
+    height: 8%;
+    width: 6%;
+ }
+ .sweaters h1{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .sweaters span{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .pop-3 img{
+    height: 8%;
+     width: 6%;
+ }
+ .workshop h1{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .workshop span{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .pop-4 img{
+    height: 8%;
+    width: 6%;
+ }
+ .Ad{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 50px;
+ }  
+ .Ad h2{
+     font-size: 20px;
+     padding: 25px 15px 25px 15px;
+ }
+ .Ad p{
+     font-size: 18px;
+ }
+ .tag{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 40px;
+ } 
+ .tag h2{
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+ 
+ .tag p{
+     padding-left: 8px;
+     padding-right: 4px;
+     margin-top: 15px;
+     margin-left: 15px;
+     font-size: 18px;
+ }
+ .tags span{
+     font-size: 12px;
+     padding: 2px 5px 2px 5px;
+     margin-left: 15px;
+     line-height: 2.5;
+ }
+ .Inspiration{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 50px;
+ }
+ .Inspiration h2 {
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+ .in-img img{
+     width: 56%;
+     margin-top: 20px;
+     padding-left: 15px;
+     padding-right: 0px;
+     margin-left: 10px;
+ }
+ 
+ .in-img-1 img{
+     width: 56%;
+     margin-top: 20px;
+     padding-left: 15px;
+     padding-right: 0px;
+     margin-left: 10px;
+ }
+ .follow{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 40px;
+ } 
+ .follow i{
+     font-size: 25px;
+     padding-left: 5px;
+     padding-right: 0px;
+ }
+ .follow h2{
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+ .subscribe{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 40px;
+ }
+ .subscribe h2{
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+   
+ .subscribe p{
+     margin-top: 20px;
+     margin-left: 10px;
+     margin-right: 15px;
+     font-size: 18px;
+     text-align: justify;
+     line-height: 1.5;
+ }
+ .subscribe input{
+     margin-top: 20px;
+     margin-left: 10px;
+     width: 85%;
+     font-size: 18px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ .subscribe button{
+     width: 90%;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     font-size: 18px;
+ }
+ .footer{
+     height: 200px;
+     width: 100%;
+     margin-top: 25px;
+  }
+  .top-bt{
+     padding-top: 40px;
+ }
+ .top-bt a{
+     padding:10px 15px 10px 15px;
+     font-size: 18px;
+     margin-left: 25px;
+     margin-top: 30px;
+ }
+ .footer p{
+     margin-left: 25px;
+     font-size: 18px;
+ }
+}
+
+
+
+
+@media only screen and (min-width:1025px) and (max-width:1200px) {
+    .nav{
+        
+     }
+     .modal-name h1{
+        font-size: 50px;
+        padding-left: 5px;
+        margin-top: 0px;
+        text-align: center;
+        padding-right: 5px;
+  }
+  .modal-name h6{
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    padding-right: 5px;
+  }
+  .jane-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    vertical-align: middle;
+    height: 450px;
+    width: 100%;
+  }
+ .jane-img h4{
+    top: 220px;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 44px;
+ }
+ .jane-img h1{
+    font-size: 55px;
+    top: 300px;
+    padding-left: 20px;
+ }
+ .jane-img button{
+    top: 400px;
+    padding: 15px 25px 15px 25px;
+    font-size: 21px;
+    margin-left: 20px;
+ }
+ .middle-content{
+    display: flex;
+ }
+ .bottom-con-left{
+     width: 70%;
+     padding:0;
+ }
+ .bottom-con{
+     width: 94%;
+     margin-top: 25px;
+     margin-left: 24px;
+ }
+ .bottom-con h1{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .bottom-con h6{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .girl-img{
+    width: 93%;
+    height: 92%;
+    margin-left: 24px;
+ }
+ .bottom-con p{
+     font-size: 17px;
+     text-align: justify;
+     margin-top: 5px;
+     margin-left: 24px;
+     margin-right: 25px;
+ }
+ .hhover i{
+     color: #000;
+     padding-right: 0px;
+ }
+ .like-bt button{
+     font-size: 18px;
+     padding: 10px 25px 10px 25px;
+     margin-top: 25px;
+     margin-left: 20px;
+     margin-bottom: 25px;
+  }
+  
+ .replies-bt button{
+     font-size: 18px;
+     padding:10px;
+     margin: 0;
+     margin-top: 25px;
+     margin-right: 20px;
+ }
+ .hat-content{
+     width: 94%;
+     margin-top: 25px;
+     margin-left: 24px;
+ }
+ .hat-content h1{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .hat-content h6{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .hat-content p{
+    font-size: 17px;
+     text-align: justify;
+     margin-top: 5px;
+     margin-left: 24px;
+     margin-right: 25px;
+ }
+ .last-content{
+    width: 94%;
+    margin-top: 25px;
+    margin-left: 24px;
+ }
+ .runway-img{
+      width: 93%;
+    height: 92%;
+    margin-left: 24px;
+ }
+ .last-content h1{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .last-content h6{
+     text-align: center;
+     font-size: 20px;
+     padding-left: 10px;
+     padding-right: 16px;
+ }
+ .last-content p{
+    font-size: 17px;
+     text-align: justify;
+     margin-top: 5px;
+     margin-left: 24px;
+     margin-right: 25px;
+ }
+ 
+ .bottom-con-right{
+    display: block;
+    width: 30%;
+    padding-left:0px;
+    margin-right: 10px;
+    margin-top: 25px;
+ }
+ 
+ .avatargirl-img img{
+     width: 100%;
+     height: 200px;
+     filter: grayscale(80%);
+ }
+ .avatargirl-img{
+     width: 98%;
+ }
+ .avatargirl-img h1{
+     font-size: 20px;
+     font-weight: 400;
+     font-family: sans-serif;
+ }
+ .avatargirl-img p{
+     font-size: 19px;
+     line-height: 1.2;
+ }
+ .popular-post{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 50px;
+ }
+ .popular-post p{
+     font-size: 22px;
+     padding-left: 14px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+ }
+ .popular img{
+     height: 10%;
+     width: 18%;
+ }
+ .denim h1{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .denim span{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .pop-2 img{
+    height: 10%;
+    width: 18%;
+ }
+ .sweaters h1{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .sweaters span{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .pop-3 img{
+    height: 10%;
+     width: 18%;
+ }
+ .workshop h1{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .workshop span{
+     padding-top: 10px;
+     padding-left: 20px;
+     font-size: 18px;
+ }
+ .pop-4 img{
+    height: 10%;
+    width: 18%;
+ }
+ .Ad{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 50px;
+ }  
+ .Ad h2{
+     font-size: 20px;
+     padding: 25px 15px 25px 15px;
+ }
+ .Ad p{
+     font-size: 15px;
+ }
+ .tag{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 40px;
+ } 
+ .tag h2{
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+ .tag p{
+     padding-left: 8px;
+     padding-right: 4px;
+     margin-top: 15px;
+     margin-left: 15px;
+     font-size: 18px;
+ }
+ .tags span{
+     font-size: 14px;
+     padding: 2px 5px 2px 5px;
+     margin-left: 15px;
+     line-height: 2.5;
+ }
+ .Inspiration{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 50px;
+ }
+ .Inspiration h2 {
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+ .in-img img{
+     width: 50%;
+     margin-top: 20px;
+     padding-left: 0px;
+     padding-right: 0px;
+     margin-left: 25px;
+ }
+ 
+ .in-img-1 img{
+     width: 50%;
+     margin-top: 20px;
+     padding-left: 0px;
+     padding-right: 0px;
+     margin-left: 25px;
+ }
+ .follow{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 40px;
+ } 
+ .follow i{
+     font-size: 25px;
+     padding-left: 5px;
+     padding-right: 0px;
+ }
+ .follow h2{
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+ .subscribe{
+     width: 98%;
+     margin-right: 0px;
+     margin-top: 40px;
+ }
+ .subscribe h2{
+     padding: 18px 15px 18px 15px;
+     font-size: 18px;
+ }
+   
+ .subscribe p{
+     margin-top: 20px;
+     margin-left: 10px;
+     margin-right: 10px;
+     font-size: 18px;
+     text-align: justify;
+     line-height: 1.5;
+ }
+ .subscribe input{
+     margin-top: 20px;
+     margin-left: 10px;
+     width: 85%;
+     font-size: 14px;
+     padding-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ .subscribe button{
+     width: 90%;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     font-size: 14px;
+ }
+ .footer{
+     height: 200px;
+     width: 100%;
+     margin-top: 25px;
+  }
+  .top-bt{
+     padding-top: 20px;
+ }
+ .top-bt a{
+     padding:10px 15px 10px 15px;
+     font-size: 18px;
+     margin-left: 25px;
+     margin-top: 30px;
+ }
+ .footer p{
+     margin-left: 25px;
+ }
+}
